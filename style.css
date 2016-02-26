@@ -1,0 +1,65 @@
+.panel{
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: .5rem;
+    margin-bottom: 20px;
+}
+
+.panel.green{
+    background-color: #0DE877;
+}
+
+.panel.orange{
+    background-color: #FFA500;
+}
+
+.panel.blue{
+    background-color: #1192FC;
+}
+
+.panel.red{
+    background-color: #FF4D4D;
+}
+
+ul.systems{
+    border: .1rem solid #e1e1e1;
+    border-radius: .5rem;
+}
+
+ul.systems > li{
+    list-style: none;
+    border-bottom: .1rem solid #e1e1e1;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+ul.systems > li:last-child{
+    border: none;
+}
+
+.systems .status{
+    float: right;
+}
+
+.status.green{
+    color: #0DE877;
+}
+
+.status.orange{
+    color: orange;
+}
+
+.status.blue{
+     color: #1192FC;
+}
+
+.status.red{
+    color: #FF4D4D;
+}
+
+hr{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
