@@ -7,19 +7,19 @@
     margin-bottom: 20px;
 }
 
-.panel.green{
+.panel.operational{
     background-color: #0DE877;
 }
 
-.panel.orange{
+.panel.degraded.performance{
     background-color: #FFA500;
 }
 
-.panel.blue{
+.panel.investigating{
     background-color: #1192FC;
 }
 
-.panel.red{
+.panel.major.outage{
     background-color: #FF4D4D;
 }
 
@@ -43,19 +43,19 @@ ul.systems > li:last-child{
     float: right;
 }
 
-.status.green{
+.status.operational{
     color: #0DE877;
 }
 
-.status.orange{
+.status.degraded.performance{
     color: orange;
 }
 
-.status.blue{
+.status.investigating{
      color: #1192FC;
 }
 
-.status.red{
+.status.major.outage{
     color: #FF4D4D;
 }
 
